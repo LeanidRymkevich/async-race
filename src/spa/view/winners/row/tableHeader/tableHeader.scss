@@ -1,0 +1,38 @@
+@import '@src/spa/basic-styles/variables';
+@import '@src/spa/basic-styles/placeholders';
+
+.table__header-cell {
+  
+  @extend %table-cell-common-properties;
+  border-top: 1px solid $basic-font-color;
+  text-align: left;
+
+  & span {
+    position: relative;
+  }
+
+  &._asc span::before {
+    position: absolute;
+    content: "↓";
+    top: -5px;
+    font-size: 2rem;
+    right: -10px;
+  }
+
+  &._dsc span::before {
+    position: absolute;
+    content: "↑";
+    top: -5px;
+    font-size: 2rem;
+    right: -10px;
+  }
+}
+
+._clickable {
+  transition: filter 0.15s;
+
+  &:hover {
+    cursor: pointer;
+    filter: drop-shadow(2px 4px 6px black);
+  }
+}

@@ -1,0 +1,14 @@
+@import '@src/spa/basic-styles/variables';
+
+.car {
+  width: $car-width;
+  aspect-ratio: 2.867 / 1;
+  mask-image: url("@src/assets/car.svg");
+  mask-size: cover;
+  -webkit-mask-image: url("@src/assets/car.svg");
+  -webkit-mask-size: cover;
+
+  &_small {
+    width: 40px;
+  }
+}

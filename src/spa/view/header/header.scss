@@ -1,0 +1,10 @@
+@import '@src/spa/basic-styles/mixins';
+
+.header {
+  width: 100%;
+}
+
+.header__container {
+  @include flex;
+  padding: 10px 0 20px;
+}

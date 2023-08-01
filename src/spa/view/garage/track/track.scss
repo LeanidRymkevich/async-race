@@ -1,0 +1,45 @@
+@import '@src/spa/basic-styles/variables';
+@import '@src/spa/basic-styles/mixins';
+
+.track {
+  width: 100%;
+
+  &_selected {
+    background-color: $track-selected-background;
+  }
+}
+
+.track__header {
+  @include flex($align: center);
+  padding-bottom: 10px;
+}
+
+.car-name {
+  color: $btn-active-color;
+  font-size: $car-name-font-size;
+}
+
+.passage-wrapper {
+  width: 100%;
+  @include flex;
+  border-bottom: 3px dashed;
+}
+
+.passage-buttons {
+  @include flex($gap: 5px);
+}
+
+.passage {
+  @include flex($gap: 0px, $justify: space-between, $align: flex-end);
+  flex-grow: 1;
+  padding-top: 10px;
+}
+
+.flag {
+  width: $flag-width;
+  margin-right: calc($car-width + 10px);
+  aspect-ratio: 1/1;
+  background-image: url("@src/assets/flag.png");
+  background-position: center;
+  background-size: cover;
+}

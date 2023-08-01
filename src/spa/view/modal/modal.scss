@@ -1,0 +1,16 @@
+@import "@src/spa/basic-styles/mixins";
+@import "@src/spa/basic-styles/variables";
+
+.winner {
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: $modal-font-size;
+  width: 100vw;
+  height: 100vh;
+  @include flex ($gap: 0, $justify: center, $align: center);
+  text-align: center;
+  color: $modal-text-color;
+  background: url("@src/assets/win.gif");
+  background-size: cover;
+}

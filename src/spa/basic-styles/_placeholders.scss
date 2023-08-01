@@ -1,0 +1,18 @@
+%btn-common-properties {
+  font-size: 1rem;
+  font-weight: $basic-font-weight;
+  font-family: inherit;
+  text-transform: uppercase;
+}
+
+%table-row-common-properties {
+  width: $table-width;
+  padding-bottom: 5px;
+}
+
+%table-cell-common-properties {
+  border-bottom: 1px solid $basic-font-color;
+  border-left: 1px solid $basic-font-color;
+  border-right: 1px solid $basic-font-color;
+  padding: 5px 15px 5px 5px;
+}

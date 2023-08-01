@@ -1,0 +1,51 @@
+//FONTS
+$main-font: Verdana, Geneva, Tahoma, sans-serif;
+$basic-font-size: 2rem;
+$page-title-font-size: $basic-font-size;
+$page-number-font-size: 1.8rem;
+$car-name-font-size: 1.6rem;
+$passage-btn-font-size: 1.6rem;
+$table-font-size: 1.6rem;
+
+$basic-font-weight: 700;
+
+$modal-font-size: 36px;
+
+$data-base-error-font-size: 0.8rem;
+
+//COLORS
+$body-color: #000000;
+$basic-font-color: #ffffff;
+
+// btn colors
+$btn-primary-color: #68b84d;
+$btn-primary-before-color: #268e26;
+$btn-secondary-color: #67afcf;
+$btn-secondary-before-color: #0b74bd;
+
+// track btn colors
+$btn-active-color: #9a7402;
+$btn-disabled-color: #6e6d6d;
+$btn-disabled-before-color: #4b4b4b;
+
+// text input background
+$text-input-blurred-color: #a5a2a2;
+$text-input-focused-color: #d3d3d3;
+
+// table header background 
+$table-header-background: #0445cb;
+$table-odd-rows-background: #595959;
+$table-even-rows-background: #404040;
+
+// modal
+$modal-text-color: #8b0000;
+
+// track selected background
+$track-selected-background: #161616;
+
+// SIZES
+$car-width: 80px;
+$flag-width: 30px;
+$track-btn-width: 2.4rem;
+$table-max-width: 800px;
+$table-width: 100%;

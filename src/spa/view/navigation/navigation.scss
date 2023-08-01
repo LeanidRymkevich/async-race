@@ -1,0 +1,6 @@
+@import '@src/spa/basic-styles/mixins';
+
+.navigation {
+  @include flex;
+  padding: 15px 0;
+}

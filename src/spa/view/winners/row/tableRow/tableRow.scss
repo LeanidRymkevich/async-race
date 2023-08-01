@@ -1,0 +1,28 @@
+@import '@src/spa/basic-styles/variables';
+@import '@src/spa/basic-styles/placeholders';
+
+.table__row {
+  @extend %table-row-common-properties;
+  font-weight: 400;
+
+  .table__header &:first-child {
+    background-color: $table-header-background;
+  }
+
+  &:last-child {
+    padding-bottom: 0;  
+  }
+
+  &:nth-child(odd) {
+    background-color: $table-odd-rows-background;
+  }
+
+  &:nth-child(even) {
+    background-color: $table-even-rows-background;
+  }
+
+}
+
+.table__cell {
+  @extend %table-cell-common-properties;
+}

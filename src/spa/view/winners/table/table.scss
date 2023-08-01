@@ -1,0 +1,12 @@
+@import '@src/spa/basic-styles/variables';
+
+.table {
+  max-width: $table-max-width;
+  width: $table-width;
+  font-size: $table-font-size;
+  border-collapse: collapse;
+}
+
+.table__header {
+  width: $table-width;
+}
